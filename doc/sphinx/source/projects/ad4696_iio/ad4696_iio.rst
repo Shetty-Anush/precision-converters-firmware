@@ -52,7 +52,7 @@ and USB cable.
 Connect the EVAL-AD4696 board to SDP-K1 board (or any other Mbed enabled controller 
 board or an equivalent STM32 board). Connect controller board to the PC using the USB cable. 
 
-   .. image:: /source/projects/ad4696_iio/ad4696_connection_diagram.png
+   .. image:: /source/projects/ad4696_iio/ad4696_connection_interface.png
       :width: 600
 
 

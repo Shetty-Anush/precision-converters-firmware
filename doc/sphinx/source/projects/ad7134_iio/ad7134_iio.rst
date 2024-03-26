@@ -55,7 +55,7 @@ and USB cable.
 Connect the EVAL-AD7134 board to SDP-K1 board (or any other Mbed enabled controller 
 board or an equivalent STM32 board). Connect controller board to the PC using the USB cable. 
 
-   .. image:: /source/projects/ad7134_iio/ad7134_hardware_interface.png
+   .. image:: /source/projects/ad7134_iio/ad7134_hardware.png
       :width: 600
 
 
