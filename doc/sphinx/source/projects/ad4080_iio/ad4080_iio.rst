@@ -11,7 +11,7 @@ Supported Hardware
 
 **Supported Evaluation Boards:**
 
-* `EVAL-AD4080-ARDZ < >`_
+* EVAL-AD4080-ARDZ
 
 **Supported Carrier Boards:**
 
@@ -71,6 +71,7 @@ Connect the VIO_ADJUST jumper on the SDP-K1 to 3.3V position
 to drive SDP-K1 GPIOs at 3.3V.
 
 **Nucleo-H563ZI for STM32 platform:**
+
 Please refer to the board user guide for the jumper connections.
 
 **EVAL-AD4080:**
