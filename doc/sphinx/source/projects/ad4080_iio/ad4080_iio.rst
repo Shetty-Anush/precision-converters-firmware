@@ -1,4 +1,4 @@
-AD405x IIO Application
+AD4080 IIO Application
 """"""""""""""""""""""
 
 ==================
@@ -15,18 +15,18 @@ Supported Hardware
 
 **Supported Carrier Boards:**
 
-* 'SDP-K1 With Mbed Platform <https://os.mbed.com/platforms/SDP_K1/>`_ 
-* 'Nucleo-H563ZI With STM32 Platform <https://www.st.com/en/evaluation-tools/nucleo-h563zi.html/>'_
+* `SDP-K1 With Mbed Platform <https://os.mbed.com/platforms/SDP_K1/>`_ 
+* `Nucleo-H563ZI With STM32 Platform <https://www.st.com/en/evaluation-tools/nucleo-h563zi.html/>`_
 
 ============
 Introduction
 ============
 
 This page gives an overview of using the ARM platforms supported (default is Mbed) 
-firmware example with Analog Devices AD4080 Evaluation board and SDP-K1 controller board. 
+firmware example with Analog Devices AD4080 Evaluation board and SDP-K1/Nucleo-H563ZI controller board. 
 This example code leverages the ADI developed IIO (Industrial Input Output) ecosystem to 
 evaluate the AD4080 device by providing a device debug and data capture support.
-The code provides support for MBED and STM32 platforms, using the SDP-K1 controller board.
+The code provides support for MBED and STM32 platforms.
 
 The respective build guides for each of the platforms
 can be found in the further sections. The active platform can be chosen by selecting the appropriate 
@@ -65,14 +65,17 @@ board or an equivalent STM32 board). Connect controller board to the PC using th
 Jumper Settings
 ===============
 
-SDP-K1 :
+**SDP-K1:**
 
 Connect the VIO_ADJUST jumper on the SDP-K1 to 3.3V position 
-to drive SDP-K1 GPIOs at 3.3V
+to drive SDP-K1 GPIOs at 3.3V.
+
+**Nucleo-H563ZI for STM32 platform:**
+Please refer to the board user guide for the jumper connections.
 
 **EVAL-AD4080:**
 
-Please refer to the user guide for the jumper connections on the EVAL-AD4080 board
+Please refer to the user guide for the jumper connections on the EVAL-AD4080 board.
 
 .. Communication Interface section:
 
