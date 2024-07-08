@@ -11,7 +11,7 @@ Supported Hardware
 
 **Supported Evaluation Boards:**
 
-* EVAL-AD4080-ARDZ
+* `EVAL-AD4080-ARDZ <https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-ad4080-ardz.html>`_
 
 **Supported Carrier Boards:**
 
@@ -57,7 +57,7 @@ and USB cable.
 Connect the EVAL-AD4080 board to SDP-K1 board (or any other Mbed enabled controller 
 board or an equivalent STM32 board). Connect controller board to the PC using the USB cable. 
 
-   .. image:: /source/projects/ad4052_iio/ad4052_connection_diagram.png
+   .. image:: /source/projects/ad4080_iio/ad4080_connection_diagram.png
       :width: 600
 
 
