@@ -51,7 +51,7 @@ to communicates with IIO device.
 Hardware Connections
 ====================
 
-Required: SDP-K1 (or alternative Mbed enabled controller board, or an STM32 board ), EVAL-AD4080 board
+Required: SDP-K1 (or alternative Mbed enabled controller board, or an STM32 board ), EVAL-AD4080 board (requires an external power supply, for which the cable and adapter are provided with the evaluation board kit)
 and USB cable.
 
 Connect the EVAL-AD4080 board to SDP-K1 board (or any other Mbed enabled controller 
@@ -65,14 +65,10 @@ board or an equivalent STM32 board). Connect controller board to the PC using th
 Jumper Settings
 ===============
 
-**SDP-K1:**
+**SDP-K1/Nucleo-H563ZI:**
 
-Connect the VIO_ADJUST jumper on the SDP-K1 to 3.3V position 
-to drive SDP-K1 GPIOs at 3.3V.
-
-**Nucleo-H563ZI for STM32 platform:**
-
-Please refer to the board user guide for the jumper connections.
+Connect the VIO_ADJUST jumper on the SDP-K1 / JP4 jumper on Nucleo-H563ZI board to 3.3V position 
+to drive SDP-K1/Nucleo-H563ZI GPIOs at 3.3V.
 
 **EVAL-AD4080:**
 
