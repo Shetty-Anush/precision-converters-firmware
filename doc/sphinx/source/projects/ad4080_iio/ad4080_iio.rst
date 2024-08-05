@@ -37,7 +37,7 @@ value for the ACTIVE_PLATFORM macro in the app_config.h (Default is mbed)
 
 The interface used for communicating with PC based IIO clients is either Virtual Serial Or UART. 
 IIO Firmware leverages the ADI created no-os and platform driver software layers
-to communicates with IIO device.
+to communicate with IIO device.
 
 .. SDP-K1 Mbed Section
 
@@ -51,7 +51,7 @@ to communicates with IIO device.
 Hardware Connections
 ====================
 
-Required: SDP-K1 (or alternative Mbed enabled controller board, or an STM32 board ), EVAL-AD4080 board (requires an external power supply, for which the cable and adapter are provided with the evaluation board kit)
+Required: SDP-K1 (or alternative Mbed enabled controller board, or an STM32 board), EVAL-AD4080 board (requires an external power supply, for which the cable and adapter are provided with the evaluation board kit)
 and USB cable.
 
 Connect the EVAL-AD4080 board to SDP-K1 board (or any other Mbed enabled controller 
@@ -62,13 +62,17 @@ board or an equivalent STM32 board). Connect controller board to the PC using th
 
 
 ===============
-Jumper Settings
+Solder Bridge and Jumper Settings
 ===============
 
-**SDP-K1/Nucleo-H563ZI:**
+**Nucleo-H563ZI:**
 
-Connect the VIO_ADJUST jumper on the SDP-K1 / JP4 jumper on Nucleo-H563ZI board to 3.3V position 
-to drive SDP-K1/Nucleo-H563ZI GPIOs at 3.3V.
+SB70 solder bridge should be in the 'ON' state (i.e. place a small amount of solder paste between the two pads to be bridged).
+
+Connect the VIO_ADJUST jumper on the Nucleo-H563ZI board to 3.3V position to drive Nucleo-H563ZI GPIOs at 3.3V.
+
+**SDP-K1:**
+Connect the VIO_ADJUST jumper on the SDP-K1 to 3.3V position to drive SDP-K1 GPIOs at 3.3V.
 
 **EVAL-AD4080:**
 
