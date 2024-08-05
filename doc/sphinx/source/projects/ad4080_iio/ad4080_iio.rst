@@ -69,9 +69,10 @@ Solder Bridge and Jumper Settings
 
 SB70 solder bridge should be in the 'ON' state (i.e. place a small amount of solder paste between the two pads to be bridged).
 
-Connect the VIO_ADJUST jumper on the Nucleo-H563ZI board to 3.3V position to drive Nucleo-H563ZI GPIOs at 3.3V.
+Connect the JP4 jumper on the Nucleo-H563ZI board to 3.3V position to drive Nucleo-H563ZI GPIOs at 3.3V.
 
 **SDP-K1:**
+
 Connect the VIO_ADJUST jumper on the SDP-K1 to 3.3V position to drive SDP-K1 GPIOs at 3.3V.
 
 **EVAL-AD4080:**
